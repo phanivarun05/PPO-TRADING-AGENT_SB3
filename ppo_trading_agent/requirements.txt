@@ -1,0 +1,9 @@
+stable-baselines3[extra]
+gymnasium
+numpy 
+pandas
+matplotlib
+yfinance
+torch
+tensorboard
+scikit-learn
