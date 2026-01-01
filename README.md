@@ -13,7 +13,7 @@ The project follows **industry-correct reinforcement learning practices**, inclu
 
 ## 🚀 Key Features
 
-- Custom **Gymnasium trading environment**
+- Custom Gymnasium trading environment
 - Continuous action space (position sizing)
 - PPO with Generalized Advantage Estimation (GAE)
 - Cash and position constraints (no unlimited leverage)
@@ -23,6 +23,32 @@ The project follows **industry-correct reinforcement learning practices**, inclu
 - Modular, reproducible project structure
 
 ---
+
+## 🛠️ Tech Stack & Setup
+
+### Core Technologies
+- **Language**: Python
+- **RL Algorithm**: PPO (Stable-Baselines3)
+- **Deep Learning**: PyTorch
+- **Environment API**: Gymnasium
+- **Market Data**: Yahoo Finance
+- **Data Processing**: NumPy, Pandas
+- **Visualization & Logging**: Matplotlib, TensorBoard
+- **Compute**: Cloud GPU (Lightning AI)
+
+---
+
+## ⚙️ Installation & Usage (End-to-End)
+
+This project is designed to be **fully reproducible** from scratch.
+
+### 1️⃣ Install Dependencies
+Install all required libraries:
+
+```bash
+pip install -r requirements.txt
+
+
 
 ## 🧠 Reinforcement Learning Formulation
 
@@ -42,4 +68,3 @@ Position size is **bounded** to prevent unrealistic leverage.
 
 ### Reward Function
 Step-wise change in portfolio net worth:
-
