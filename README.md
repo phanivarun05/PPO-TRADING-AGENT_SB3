@@ -47,24 +47,3 @@ Install all required libraries:
 
 ```bash
 pip install -r requirements.txt
-
-
-
-## 🧠 Reinforcement Learning Formulation
-
-### Observation Space
-At each time step, the agent observes:
-- A rolling window of OHLCV price data
-- Current account balance
-- Current asset position
-
-### Action Space
-Continuous action ∈ **[-1, 1]**
-- -1 → decrease position (sell)
--  0 → hold
-- +1 → increase position (buy)
-
-Position size is **bounded** to prevent unrealistic leverage.
-
-### Reward Function
-Step-wise change in portfolio net worth:
